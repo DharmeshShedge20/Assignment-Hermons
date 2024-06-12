@@ -1,0 +1,521 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar-1 */
+.navbar {
+    background-color: #3b9ddf;
+    overflow: hidden;
+}
+#search {
+    margin-left: 70px;
+    background-color: #3b5cdf;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 70px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url('https://wallpapers.com/images/hd/dark-blue-plain-kskl9bwuubcnb6r3.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    padding: 25px;
+    transform: translateY(-50%);
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    width: 75%;
+}
+
+.hero-content button {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #3b9ddf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: #555;
+}
+
+
+
+.breadcrumb a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb a::after {
+    content: ' > ';
+    color: red;
+}
+
+.breadcrumb a:last-child::after {
+    content: '';
+}
+
+/* Navbar 2 */
+
+.navbar-2 {
+    border-bottom: 1px solid #111;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.navbar-2 ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 70px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-2 li {
+    float: left;
+    padding-top: 20px;
+}
+
+.navbar-2 li a {
+    height: 40px;   
+    display: block;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar-2 li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(84, 140, 212);
+    transform: scaleX(0);
+
+}
+
+.navbar-2 li a:hover::after {
+    transform: scaleX(1);
+}
+
+.Treatment-container{
+    width: 100%;
+    display: flex;
+}
+
+.Treatment-container img{
+    width: 30%;
+    height: 60%;
+    padding: 50px;
+    margin-left: 40px;
+}
+/* Treatment-ov */
+.Treatment-ov {
+    padding: 50px;
+    width: 50%; 
+    box-sizing: border-box; 
+}
+
+  /* need help */
+
+  .nneed-help{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+.elegiblity{
+    margin-right: 100px;
+    width: 50%;
+}
+  .help-form{
+    justify-content: end;
+    margin: 40px;
+    padding: 20px;
+width: 20%;
+  }
+
+  .form-title{
+    color: rgb(54, 117, 233);
+    font-size: 36px; 
+    font-weight: 800;
+  }
+
+.pop {
+width: 50px;
+background-color: #3b9ddf;
+height: auto;
+}
+
+.pop p{
+    width: 20px;
+    height: auto;
+}
+
+#hr {
+    background-color: #3b9ddf;
+    height: 1px; 
+    border: none; 
+}
+
+
+/* container-2 */
+.elegiblity{
+    padding: 50px;
+    padding-right: 0px;
+    width: 60%;
+}
+
+#hr-2{
+    margin-right: 35%;
+    background-color: #3b9ddf;
+    height: 1px; 
+    border: none; 
+}
+
+#hr-3{
+    margin-right: 38%;
+    height: 1px;  
+}
+
+.faq{
+    padding: 50px;
+    width: 100%;
+}
+
+.faq p{
+    width: 50%;
+}
+
+
+/* Styling for the content */
+.content {
+    display: none; 
+    margin-top: 10px;
+    padding-left: 30px;
+  }
+  
+  /* Styling for the title */
+  .title {
+    cursor: pointer; 
+  }
+
+  /* card */
+
+  .patient{
+    margin: 50px;
+  }
+
+  .card-container {
+    display: flex;
+}
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .main-photo {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .profile-photo {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+  }
+  
+  .profile-info {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile-location {
+    font-size: 16px;
+  }
+
+  /* Doctors */
+  .Doctors {
+    padding-top: 20px;
+    text-align: center;
+    background-color: aliceblue;;
+}
+  .Doctors h2 i {
+    color: #d53582; 
+}
+
+.blue-color{
+    color: #3b5cdf;
+}
+.card-deck {
+    display: flex;
+    padding-left: 20%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctor-img {
+    padding: 2;
+    width: 100%;
+    height: 250px; 
+    object-fit: cover;
+}
+
+.doctor-name {
+color: rgb(219, 107, 126);
+}
+
+/* hospital locations */
+.Hospitals{
+    padding-top: 20px;
+    text-align: center; 
+}
+.Hospitals h2 i {
+    color: red; 
+}
+.hospital-cards {
+    border: 1px solid palevioletred; 
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hospital-img {
+    width: 100%;
+    height: 100%; 
+    background-color: #d53582;
+}
+
+.hospital-location{
+color: red;
+}
+
+/* form */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #2985e7; 
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #092e56; 
+  }
+
+  .contact-us{
+    text-align: center;
+    padding: 20px;
+  }
+
+  .contact-us u{
+    color: red;
+  }
+
+
+  .contact-detail{
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/127/954/small_2x/abstract-template-blue-background-white-squares-free-vector.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #get-in-touch{
+    background-color: #0b7af1;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    color: white;
+  }
+
+footer {
+    background-color: #111d37;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.section {
+    flex: 1; 
+}
+
+.model {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px; 
+}
+.model::before {
+    content: '-';
+    color: blue;
+    position: absolute;
+    left: 0;
+}
+
+
+.model a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+
+
+.about{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #111d37;
+    color: white;
+    width: 100%;
+}
+
+.footer logo{
+    width: 30%;
+}
+
+.footer-about{
+    width: 40%;
+}
+
+.footer-social{
+
+    width: 30%;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; 
+}
+.about {
+    display: flex;
+}
+
+.footer.logo {
+    margin-right: 20px; 
+}
+
+#phno{
+    color: #2985e7;
+}
+
+.copyright{
+    display: flex;
+    background-color: #128ada;
+    color: white;
+    justify-content: space-between;
+}
+
